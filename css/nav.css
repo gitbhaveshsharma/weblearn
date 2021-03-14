@@ -1,0 +1,58 @@
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .nav{
+        background-image: linear-gradient(180deg, rgb(7, 7, 7),#fff);
+        height:70px;
+        margin: 0;
+        padding:5px;
+    }
+    .nav li{
+        display:inline;
+        padding:5px;   
+    height: 30px;
+    }
+    .nav ul{
+        text-align: right;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-right: 20px; 
+
+    }
+    button{
+        height: 50px;
+        width: 150px;
+        border-radius:10px;
+        background-color: blue;
+        border: none;
+    font-size:20px;
+    font-weight: bold;
+    letter-spacing:3px;
+    color: white;
+    }
+    li:hover{
+        color: white;
+        transition: 0.3s;
+        font-size: 27px;
+    }
+    button:hover{
+    background-image: linear-gradient(120deg, #00ffd5,#02ff4e);
+    transition: 0.8s;
+    }
+    
+
+    section{
+        height: 90vh;
+        background-color:pink;
+    }
+
+    @media screen and (max-width:640px)
+    {
+     section{
+         background-color: black;
+     }
+      .nav ul{
+          font-size: 10px;
+      }
+    }
