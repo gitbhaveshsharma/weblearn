@@ -1,0 +1,62 @@
+Quaction -1 
+i> You should create a // style comment that contains at least five letters.
+
+ii> You should create a /* */ style comment that contains at least five letters.
+Quaction - 2.
+
+ You should declare myName with the var keyword, ending with a semicolon.
+ Quaction -3.
+
+i> sum should equal 20.
+ii. You should use the + operator.
+
+Quaction - 4.
+i> The variable product should equal 5.0.
+i> You should use the * operator
+
+Quaction - 5.
+var myStr = "<a href=\"http://www.example.com\" target=\"_blank\">Link</a>";
+i> You should remove all the backslashes (\).
+ii> You should have two single quotes ' and four double quotes.
+
+Quaction - 6.
+
+var a = 48;
+var b = 108;
+var c = 33;
+
+// Only change code below this line
+a = a / 12;
+b = b / 4;
+c = c / 11;
+
+i> a should equal 4.
+ii> b should equal 27.
+iii> c should equal 3.
+iv> You should use the /= operator for each variable.
+v> You should not modify the code above the specified comment.
+
+Quaction- 7.
+
+// Only change code below this line
+var myName;
+var myStr;
+
+i> myName should be set to a string at least 3 characters long.
+ii> You should use two + operators to build myStr with myName inside it.
+
+Quaction - 8;
+
+output look like this --
+
+FirstLine
+    \SecondLine
+ThirdLine 
+
+i> myStr should not contain any spaces
+ii> myStr should contain the strings FirstLine, SecondLine and ThirdLine (remember case sensitivity)
+iii> FirstLine should be followed by the newline character \n
+iv> myStr should contain a tab character \t which follows a newline character
+v> SecondLine should be preceded by the backslash character \
+vi> There should be a newline character between SecondLine and ThirdLine
+vii> myStr should only contain characters shown in the instructions
