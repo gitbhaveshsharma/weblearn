@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script scr="app.js"></script>
+</head>
+<body>
+    <script>
+        var name = "rupesh sharma last rupesh";
+        var store = name.length; 
+        search = name.indexOf("sharma");
+        var lastSearch = name.lastIndexOf("rupesh");
+        document.write(store,"<br/>", search, "<br/>", lastSearch);
+    </script>
+    
+    <script>
+        var name2 = "i am a boy let the know me know i";
+        storeSecond = name2.lastIndexOf("know", 20);
+        document.write(storeSecond);
+    </script>
+    <script>
+        var nameSearch = "i am a boy let the know me know i";
+        storeThird = nameSearch.search("know");
+        document.write(storeThird);
+    </script>
+    <script>
+        function myFunction()
+        {
+          var rel = document.getElementById("demo").innerHTML;
+          var text = rel.replace("Lorem","Bhavesh");
+          document.getElementById("demo").innerHTML = text;
+        }
+    </script>
+    <button onclick="myFunction()">click on!</button>
+    <h1 id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odio aut eaque ab tempora rem illo magni asperiores eum consequatur cumque ullam enim, hic, necessitatibus odit quod in eveniet harum?</h1>
+</body>
+</html>
